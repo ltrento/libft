@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>*/
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -27,23 +24,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, (nmemb * size));
 	return (ptr);
 }
-/*int	main(void)
-{
-	size_t	num_elements = 5;
-	size_t	element_size = sizeof(int);
-	int	*arr = (int *)ft_calloc(num_elements, element_size);
-	
-	if (arr)
-	{
-		for (size_t i = 0; i < num_elements; i++)
-		{
-			printf("arr[%zu] = %d\n", i, arr[i]);
-		}
-		free(arr);
-	}
-	else
-	{
-		printf("memory allocation failes.\n");
-	}
-	return (0);
-}*/

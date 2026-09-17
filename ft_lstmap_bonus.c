@@ -46,31 +46,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (n_head);
 }
-/*void	del(void *content)
-{
-	free(content);
-}
-
-int	main()
-{
-	t_list	*lst = malloc(sizeof(t_list));
-	if (lst == NULL)
-		printf("node not found\n");
-	lst->content = 45;
-	lst->next = NULL;
-
-	t_list	*n_lst = malloc(sizeof(t_list));
-	if (n_lst == NULL)
-		printf("node not found\n");
-	n_lst->content = 56;
-	n_lst->next = NULL;
-
-	lst->next = n_lst;
-	t_list	*prova = ft_lstmap(lst, f, del);
-	while (prova != NULL)
-	{
-		printf ("%d\n ", prova->content);
-		prova = prova->next;
-	}
-	return (0);
-}*/

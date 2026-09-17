@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>*/
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
@@ -26,15 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-/*void	example_function(unsigned int index, char *c)
-{
-	*c = (char)(*c + index);
-}
-int	main(void)
-{
-	char	s[] = "Hello, World!";
-	
-	ft_striteri(s, example_function);
-	printf ("orginal string: %s\n", s);
-	return (0);
-}*/

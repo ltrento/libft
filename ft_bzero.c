@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>*/
 
 void	ft_bzero(void *s, size_t n)
 {
@@ -24,18 +22,3 @@ void	ft_bzero(void *s, size_t n)
 		str[--n] = 0;
 	}
 }
-/*
-int	main(void)
-{
-	char	str[] = "ciao belli";
-
-	printf("before ft_bzero: ");
-	for (int i = 0; i < 10; i++)
-		printf("%c", str[i]);
-	printf("\n");
-	ft_bzero(str, 3);
-	printf("after ft_bzero: ");
-	printf("%s", str);
-	printf("\n");
-	return (0);
-}*/

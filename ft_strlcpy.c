@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>*/
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
@@ -32,11 +30,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (srclen);
 }
-/*int	main(void)
-{
-	char	dest[20];
-	char	source[] = "diocane acciaio";
-
-	printf("%zu\n", ft_strlcpy(dest, source, 14));
-	return (0);
-}*/

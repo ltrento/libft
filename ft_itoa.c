@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 static size_t	ret_str(long n)
 {
@@ -61,12 +58,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*int	main(void)
-{
-	int	n = -2147483648;
-	char	*s;
-
-	s = ft_itoa(n);
-	printf("%s\n", s);
-	return (0);
-}*/

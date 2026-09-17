@@ -29,16 +29,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-/*int	main(void)
-{
-	char	str[10] = "0123456789";
-
-	ft_memset(str, 129, 10);
-	printf("custom ft_memset: %s\n", str);
-	printf("%d\n", str[1]);
-	if (strcmp(str,str1) == 0)
-		printf("both functions produced same result.\n");
-	else
-		printf("the functions produced different results.\n");
-	return (0);
-}*/

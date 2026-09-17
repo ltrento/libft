@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {
@@ -31,11 +30,3 @@ void	ft_putnbr_fd(int n, int fd)
 	if (nbr < 10)
 		ft_putchar_fd((nbr + 48), fd);
 }
-/*int	main(void)
-{
-	int	n = -2147483648;
-	int	fd = 1;
-
-	ft_putnbr_fd(n, fd);
-	return (0);
-}*/

@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
@@ -32,22 +29,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*char	example_function(unsigned int index, char c)
-{
-	return (c + index);
-}
-int	main(void)
-{
-	char	*s = "Hello, World!";
-	char	*result = ft_strmapi(s, example_function);
-
-	if (result)
-	{
-		printf("original string: %s\n", s);
-		printf("mapped string: %s\n", result);
-		free(result);
-	}
-	else
-		printf("Memory allocation failed.\n");
-	return (0);
-}*/

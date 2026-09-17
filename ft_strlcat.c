@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>*/
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -35,10 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (result);
 }
-/*int	main(void)
-{
-	char dest[] = "ciao come";
-	char src[] = "stai";
-	printf("%zu", ft_strlcat(dest, src, 15));
-	return (0);
-}*/

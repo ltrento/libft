@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <string.h>
-#include <unistd.h>*/
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
@@ -41,16 +38,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*int	main(void)
-{
-	char	source[] = "ciaoz";
-	char	destination[5];
-
-	ft_memmove(destination, source, 5);
-
-	for (size_t i; i < 5; i++)
-	{
-		write(1, &destination[i], 1);
-	}
-	return (0);
-}*/

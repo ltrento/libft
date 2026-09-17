@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
 
 int	ft_toupper(int c)
 {
@@ -20,9 +19,3 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
-/*int	main(void)
-{
-	int	c = 101;
-	printf("%d", ft_toupper(c));
-	return (0);
-}*/

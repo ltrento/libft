@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>*/
 
 static char	**free_all(char **matrice, int i)
 {
@@ -94,24 +91,3 @@ char	**ft_split(char const *s, char c)
 	matrice[n_word] = NULL;
 	return (ft_matrice(s, matrice, n_word, c));
 }
-/*int	main(void)
-{
-	char	*s = "   minghia   minghia   minghia";
-	char	c = ' ';
-	char	**matrix;
-
-	matrix = ft_split(s, c);
-	int i = 2;
-	while (matrix[i])
-	{
-		printf("%s\n", matrix[i]);
-		i++;
-	}
-	while (i >= 0)
-	{
-		free(matrix[i]);
-		i--;
-	}
-	free(matrix);
-	return (0);
-}*/

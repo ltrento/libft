@@ -11,9 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-/*#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>*/
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -41,11 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-/*int	main(void)
-{
-	char	*s = "che minghia guaddi";
-	char	*str = ft_substr(s, 4, 7);
-
-	printf("%s\n", str);
-	return (0);
-}*/
